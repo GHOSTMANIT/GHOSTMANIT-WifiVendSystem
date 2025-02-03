@@ -1,0 +1,39 @@
+{
+  "name": "pisowifi_backend",
+  "version": "1.0.0",
+  "description": "GHOSTMANIT Wifi Vending System",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx kill-port 3000 && node server.js",
+    "dev": "npx kill-port 3000 && nodemon server.js",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint '**/*.{js,jsx,ts,tsx}' --fix",
+    "format": "prettier --write .",
+    "prepare": "npm run lint && npm run format && npm run dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "onoff": "^6.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-define-config": "^1.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "kill-port": "^1.6.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^2.3.2"
+  },
+  "keywords": [
+    "pisowifi",
+    "backend",
+    "vending machine"
+  ],
+  "author": "GHOSTMANIT",
+  "license": "MIT"
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../assests/css/admin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">Admin Dashboard</div>
+    <div class="menu">
+      <button id="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <ul>
+        <li><a href="piso.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+        <li><a href="#users"><i class="fas fa-users"></i> Manage Users</a></li>
+        <li><a href="#transactions"><i class="fas fa-coins"></i> Coin Transactions</a></li>
+        <li><a href="#wifi-rates"><i class="fas fa-wifi"></i> Wi-Fi Rates</a></li>
+        <li><a href="#logs"><i class="fas fa-file-alt"></i> System Logs</a></li>
+        <li><a href="#set"><i class="fas fa-cog"></i> Settings</a></li>
+        <li><a href="#devi"><i class="fas fa-desktop"></i> Device</a></li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <div id="dashboard">
+        <h2>Dashboard</h2>
+        <header>
+          <h1>WiFi Dashboard</h1>
+        </header>
+
+        <div class="container">
+          <div class="section overview">
+            <h2>Overview</h2>
+            <div class="grid">
+              <div class="card">
+                <h3>WiFi Clients</h3>
+                <p>0</p>
+              </div>
+              <div class="card">
+                <h3>Desktop Clients</h3>
+                <p>0</p>
+              </div>
+              <div class="card">
+                <h3>Today's Sales</h3>
+                <p>0</p>
+              </div>
+              <div class="card">
+                <h3>Coins.ph Balance</h3>
+                <p>₱0.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Daily Sales</h2>
+            <div class="chart">
+              <canvas id="dailySalesChart" width="400" height="200"></canvas>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Overall Sales</h2>
+            <div class="chart">
+              <canvas id="overallSalesChart" width="400" height="200"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <p>Version 4.8.8 &copy; 2025 TATA. All rights reserved.</p>
+        </footer>
+      </div>
+
+      <div id="users" class="hidden">
+        <h2>Manage Users</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>User ID</th>
+              <th>Name</th>
+              <th>MAC Address</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td>C2:A1:B9:6C:CC</td>
+              <td><button>Edit</button> <button>Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="transactions" class="hidden">
+        <h2>Coin Transactions</h2>
+        <p>View recent transactions below:</p>
+        <ul>
+          <li>User John Doe inserted 5 coins.</li>
+          <li>User Jane Smith inserted 2 coins.</li>
+        </ul>
+      </div>
+
+      <div id="wifi-rates" class="hidden">
+        <h2>Wi-Fi Rates</h2>
+        <button id="add-time-rate">+ New Rate</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Coin</th>
+              <th>Time</th>
+              <th>Description</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="time-rates">
+            <!-- Dynamic rows for time rates -->
+          </tbody>
+        </table>
+      </div>
+
+      <div id="logs" class="hidden">
+        <h2>System Logs</h2>
+        <p>View system activities:</p>
+        <textarea readonly rows="10" cols="50" title="System Logs" placeholder="System logs will appear here">[Log Example] User connected: John Doe, IP: 10.0.2.76</textarea>
+      </div>
+
+      <div id="devi" class="hidden">
+        <h2>Device</h2>
+        <button id="reboot-btn">Reboot</button>
+        <button id="shutdown-btn">Shutdown</button>
+      </div>
+
+      <div id="set" class="hidden">
+        <h2>Settings</h2>
+        <button id="monitor-btn">Monitor</button><br><br>
+        <button id="speedtest-btn">Speed Test</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SHOWMIK. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../assests/js/admin.js"></script>
+</body>
+
+</html>

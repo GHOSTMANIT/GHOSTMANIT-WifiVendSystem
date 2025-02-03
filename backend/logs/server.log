@@ -1,0 +1,701 @@
+
+Feb/3/2025 12:27:18 PM
+==============================
+  Level: [32minfo[39m
+  Message: Server started successfully
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:27:40 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/favicon.ico"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:33:22 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/admin/"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:17 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:22 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/register.html"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:26 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:56 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:56 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:56 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:57 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:36:57 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:37:57 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:37:58 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:37:58 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:37:58 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:38:06 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:38:06 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:38:09 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:39:09 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:39:09 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:39:13 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:40:57 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:40:57 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:41:02 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:41:26 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:41:26 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:41:27 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:44:17 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:44:17 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:44:21 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:51:19 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:51:19 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:51:22 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:51:29 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/login/assests/js/login.js"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:00 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:00 PM
+==============================
+  Level: [32minfo[39m
+  Message: {"method":"GET","url":"/coinInserted"}
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:03 PM
+==============================
+  Level: [32minfo[39m
+  Message: Coin inserted
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+
+Feb/3/2025 12:56:13 PM
+==============================
+  Level: [32minfo[39m
+  Message: Client disconnected
+  Service: MyAppServer
+  Environment: development
+  Port: 3000
+  Host: localhost
+  Version: 1.0.0
+==============================
+
+Feb/3/2025 12:58:13 PM [[32minfo[39m]: Server started successfully
+Feb/3/2025 12:58:20 PM [[32minfo[39m]: [object Object]
+Feb/3/2025 12:58:20 PM [[32minfo[39m]: [object Object]
+Feb/3/2025 12:58:20 PM [[32minfo[39m]: Coin inserted
+Feb/3/2025 12:59:40 PM [[32MINFO[39M] : Server started successfully
+Feb/3/2025 12:59:40 PM [[32MINFO[39M] : [object Object]
+Feb/3/2025 12:59:40 PM [[32MINFO[39M] : [object Object]
+Feb/3/2025 12:59:40 PM [[32MINFO[39M] : Coin inserted
+Feb/3/2025 12:59:45 PM [[32MINFO[39M] : Client disconnected
+Feb/3/2025 12:59:47 PM [[32MINFO[39M] : [object Object]
+Feb/3/2025 12:59:47 PM [[32MINFO[39M] : [object Object]
+Feb/3/2025 1:00:30 PM [[32MINFO[39M] : Server started successfully
+Feb/3/2025 1:00:31 PM [[32MINFO[39M] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:00:31 PM [[32MINFO[39M] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:00:31 PM [[32MINFO[39M] : Coin inserted
+Feb/3/2025 1:00:40 PM [[32MINFO[39M] : Client disconnected
+Feb/3/2025 1:00:41 PM [[32MINFO[39M] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:00:41 PM [[32MINFO[39M] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:01:58 PM [ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:01:58 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:01:58 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:01:58 PM [ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:05:00 PM  [32MINFO[39M  : Server started successfully
+Feb/3/2025 1:05:00 PM  [32MINFO[39M  : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:00 PM  [32MINFO[39M  : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:00 PM  [32MINFO[39M  : Coin inserted
+Feb/3/2025 1:05:16 PM [ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:05:16 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:16 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:16 PM [ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:05:26 PM [[32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:05:26 PM [[32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:26 PM [[32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:05:26 PM [[32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:06:09 PM' '[ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:06:10 PM' '[ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:10 PM' '[ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:10 PM' '[ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:06:29 PM','[ [32MINFO[39M ] :' Server started successfully
+Feb/3/2025 1:06:29 PM','[ [32MINFO[39M ] :' {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:29 PM','[ [32MINFO[39M ] :' {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:29 PM','[ [32MINFO[39M ] :' Coin inserted
+Feb/3/2025 1:06:44 PM,[ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:06:44 PM,[ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:44 PM,[ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:44 PM,[ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:06:53 PM,[ [32MINFO[39M  : Server started successfully
+Feb/3/2025 1:06:53 PM,[ [32MINFO[39M  : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:53 PM,[ [32MINFO[39M  : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:06:53 PM,[ [32MINFO[39M  : Coin inserted
+Feb/3/2025 1:07:25 PM[ [32MINFO[39M ] : $formattedMessage
+Feb/3/2025 1:07:25 PM[ [32MINFO[39M ] : $formattedMessage
+Feb/3/2025 1:07:25 PM[ [32MINFO[39M ] : $formattedMessage
+Feb/3/2025 1:07:25 PM[ [32MINFO[39M ] : $formattedMessage
+Feb/3/2025 1:07:51 PM [ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:07:53 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:07:53 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:07:53 PM [ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:08:43 PM [ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:08:43 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:08:43 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:08:43 PM [ [32MINFO[39M ] : Coin inserted
+Feb/3/2025 1:09:31 PM [ [32MINFO[39M ] : Server started successfully
+Feb/3/2025 1:09:33 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:09:33 PM [ [32MINFO[39M ] : {"method":"GET","url":"/coinInserted"}
+Feb/3/2025 1:09:33 PM [ [32MINFO[39M ] : Coin inserted
+[ [32MINFO[39M ] Feb/3/2025 1:09:52 PM : Server started successfully
+[ [32MINFO[39M ] Feb/3/2025 1:09:52 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M ] Feb/3/2025 1:09:52 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M ] Feb/3/2025 1:09:52 PM : Coin inserted
+[ $level.toUpperCase() ] Feb/3/2025 1:10:04 PM : Server started successfully
+[ $level.toUpperCase() ] Feb/3/2025 1:10:04 PM : {"method":"GET","url":"/coinInserted"}
+[ $level.toUpperCase() ] Feb/3/2025 1:10:04 PM : {"method":"GET","url":"/coinInserted"}
+[ $level.toUpperCase() ] Feb/3/2025 1:10:04 PM : Coin inserted
+[ [32MINFO[39M ] Feb/3/2025 1:10:24 PM : Server started successfully
+[ [32MINFO[39M ] Feb/3/2025 1:10:24 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M ] Feb/3/2025 1:10:24 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M ] Feb/3/2025 1:10:24 PM : Coin inserted
+[ [32MINFO[39M] Feb/3/2025 1:10:33 PM : Server started successfully
+[ [32MINFO[39M] Feb/3/2025 1:10:34 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M] Feb/3/2025 1:10:34 PM : {"method":"GET","url":"/coinInserted"}
+[ [32MINFO[39M] Feb/3/2025 1:10:34 PM : Coin inserted
+[[32MINFO[39M] Feb/3/2025 1:10:39 PM : Server started successfully
+[[32MINFO[39M] Feb/3/2025 1:10:39 PM : {"method":"GET","url":"/coinInserted"}
+[[32MINFO[39M] Feb/3/2025 1:10:39 PM : {"method":"GET","url":"/coinInserted"}
+[[32MINFO[39M] Feb/3/2025 1:10:39 PM : Coin inserted
+$[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : Server started successfully
+$[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : {"method":"GET","url":"/coinInserted"}
+$[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : {"method":"GET","url":"/coinInserted"}
+$[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : Coin inserted
+"["[32MINFO[39M] Feb/3/2025 1:11:18 PM : Server started successfully
+"["[32MINFO[39M] Feb/3/2025 1:11:18 PM : {"method":"GET","url":"/coinInserted"}
+"["[32MINFO[39M] Feb/3/2025 1:11:18 PM : {"method":"GET","url":"/coinInserted"}
+"["[32MINFO[39M] Feb/3/2025 1:11:18 PM : Coin inserted
+[32MINFO[39M] Feb/3/2025 1:11:30 PM : Server started successfully
+[32MINFO[39M] Feb/3/2025 1:11:30 PM : {"method":"GET","url":"/coinInserted"}
+[32MINFO[39M] Feb/3/2025 1:11:30 PM : {"method":"GET","url":"/coinInserted"}
+[32MINFO[39M] Feb/3/2025 1:11:30 PM : Coin inserted
+[32MINFO[39M Feb/3/2025 1:11:38 PM : Server started successfully
+[32MINFO[39M Feb/3/2025 1:11:38 PM : {"method":"GET","url":"/coinInserted"}
+[32MINFO[39M Feb/3/2025 1:11:38 PM : {"method":"GET","url":"/coinInserted"}
+[32MINFO[39M Feb/3/2025 1:11:38 PM : Coin inserted
+[32minfo[39m Feb/3/2025 1:12:05 PM : Server started successfully
+[32minfo[39m Feb/3/2025 1:12:06 PM : {"method":"GET","url":"/coinInserted"}
+[32minfo[39m Feb/3/2025 1:12:06 PM : {"method":"GET","url":"/coinInserted"}
+[32minfo[39m Feb/3/2025 1:12:06 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:12:25 PM : Server started successfully
+[[32minfo[39m] Feb/3/2025 1:12:25 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:12:25 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:12:25 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:12:25 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:14:06 PM : Server started successfully
+[[32minfo[39m] Feb/3/2025 1:14:06 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:14:06 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:14:06 PM : Coin inserted
+[[32MINFO[39M] Feb/3/2025 1:15:02 PM : Server started successfully
+[[32MINFO[39M] Feb/3/2025 1:15:03 PM : {"method":"GET","url":"/coinInserted"}
+[[32MINFO[39M] Feb/3/2025 1:15:03 PM : {"method":"GET","url":"/coinInserted"}
+[[32MINFO[39M] Feb/3/2025 1:15:03 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:15:15 PM : Server started successfully
+[[32minfo[39m] Feb/3/2025 1:15:15 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:15:15 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:15:15 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:15:55 PM : Client disconnected
+[[32minfo[39m] Feb/3/2025 1:15:57 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:15:57 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:04 PM : Client disconnected
+[[32minfo[39m] Feb/3/2025 1:16:07 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:07 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:27 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:16:27 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:16:27 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:16:37 PM : Client disconnected
+[[32minfo[39m] Feb/3/2025 1:16:42 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:42 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:51 PM : Client disconnected
+[[32minfo[39m] Feb/3/2025 1:16:52 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:16:52 PM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/3/2025 1:17:17 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:17:17 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:17:17 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:17:17 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:17:17 PM : Coin inserted
+[[32minfo[39m] Feb/3/2025 1:17:23 PM : Client disconnected
+[[32minfo[39m] Feb/3/2025 1:19:13 PM : {"method":"GET","url":"/register.html"}
+[[32minfo[39m] Feb/3/2025 1:19:18 PM : {"method":"GET","url":"/login/assests/js/login.js"}
+[[32minfo[39m] Feb/3/2025 1:19:22 PM : {"method":"GET","url":"/register.html"}
+[[32minfo[39m] Feb/3/2025 1:57:26 PM : {"method":"GET","url":"/register.html"}
+[[32minfo[39m] Feb/3/2025 1:57:33 PM : {"method":"GET","url":"/login/assests/js/login.js"}
+[[32minfo[39m] Feb/3/2025 1:57:38 PM : {"method":"GET","url":"/register.html"}
+[[32minfo[39m] Feb/4/2025 5:39:58 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 5:41:04 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 5:41:26 AM : {"method":"GET","url":"/favicon.ico"}
+[[32minfo[39m] Feb/4/2025 5:41:28 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 5:41:28 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 5:41:28 AM : Coin inserted
+[[32minfo[39m] Feb/4/2025 5:41:30 AM : Client disconnected
+[[32minfo[39m] Feb/4/2025 5:41:37 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 5:41:37 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 5:41:48 AM : Client disconnected
+[[32minfo[39m] Feb/4/2025 5:41:55 AM : {"method":"GET","url":"/login/assests/js/login.js"}
+[[32minfo[39m] Feb/4/2025 5:42:01 AM : {"method":"GET","url":"/login/assests/js/login.js"}
+[[32minfo[39m] Feb/4/2025 6:17:06 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 6:18:09 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 6:18:28 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 6:18:49 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 6:18:49 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 6:18:49 AM : Coin inserted
+[[32minfo[39m] Feb/4/2025 6:18:51 AM : Client disconnected
+[[32minfo[39m] Feb/4/2025 6:18:53 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 6:18:53 AM : {"method":"GET","url":"/coinInserted"}
+[[32minfo[39m] Feb/4/2025 6:18:55 AM : Client disconnected
+[[32minfo[39m] Feb/4/2025 6:18:59 AM : {"method":"GET","url":"/login/assests/js/login.js"}
