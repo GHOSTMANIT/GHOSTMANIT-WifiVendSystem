@@ -1,5 +1,8 @@
 const winston = require('winston');
+<<<<<<< HEAD
 
+=======
+>>>>>>> cb5d6b8d (Initial commit)
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(

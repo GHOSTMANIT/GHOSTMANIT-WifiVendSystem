@@ -46,4 +46,8 @@ const processCoin = (req, res, activeSessions) => {
 module.exports = {
   streamCoinInserted,
   processCoin,
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> cb5d6b8d (Initial commit)

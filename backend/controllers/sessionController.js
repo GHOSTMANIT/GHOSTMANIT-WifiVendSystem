@@ -30,4 +30,8 @@ module.exports = {
   checkSessionStatus,
   disconnectSession,
   activeSessions,
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> cb5d6b8d (Initial commit)

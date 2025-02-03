@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+<<<<<<< HEAD
 const Gpio = require('onoff').Gpio; // For GPIO pin handling
 const { v4: uuidv4 } = require('uuid'); // For generating unique session IDs
 
@@ -10,6 +11,15 @@ const coinPin = new Gpio(3, 'in', 'both');
 const activeSessions = {};
 
 // Route to stream coin insertion events
+=======
+const Gpio = require('onoff').Gpio;
+const { v4: uuidv4 } = require('uuid'); 
+
+const coinPin = new Gpio(3, 'in', 'both');
+
+const activeSessions = {};
+
+>>>>>>> cb5d6b8d (Initial commit)
 router.get('/coinInserted', (req, res) => {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -21,29 +31,45 @@ router.get('/coinInserted', (req, res) => {
 
   coinPin.watch((err, value) => {
     if (err) {
+<<<<<<< HEAD
       // Consider using a logging library instead of console.log
       // console.error('Error reading coin slot:', err);
       return;
     }
     if (value === 1) {
       // Coin inserted
+=======
+      return;
+    }
+    if (value === 1) {
+>>>>>>> cb5d6b8d (Initial commit)
       sendEvent({ coinInserted: true });
     }
   });
 
   req.on('close', () => {
+<<<<<<< HEAD
     // Consider using a logging library instead of console.log
     // console.log('Client disconnected');
   });
 });
 
 // Route to process coin insertion
+=======
+  });
+});
+
+>>>>>>> cb5d6b8d (Initial commit)
 router.post('/processCoin', (req, res) => {
   const { coinAmount } = req.body;
   const sessionId = uuidv4();
   activeSessions[sessionId] = {
     startTime: Date.now(),
+<<<<<<< HEAD
     duration: 60 * 60 * 1000, // 1 hour in milliseconds
+=======
+    duration: 60 * 60 * 1000,
+>>>>>>> cb5d6b8d (Initial commit)
     coinAmount,
   };
   res.json({
@@ -52,7 +78,10 @@ router.post('/processCoin', (req, res) => {
   });
 });
 
+<<<<<<< HEAD
 // Route to check session status
+=======
+>>>>>>> cb5d6b8d (Initial commit)
 router.get('/session/:id', (req, res) => {
   const sessionId = req.params.id;
   const session = activeSessions[sessionId];
@@ -63,7 +92,10 @@ router.get('/session/:id', (req, res) => {
   res.json({ remainingTime, coinAmount: session.coinAmount });
 });
 
+<<<<<<< HEAD
 // Route to disconnect session
+=======
+>>>>>>> cb5d6b8d (Initial commit)
 router.post('/disconnect/:id', (req, res) => {
   const sessionId = req.params.id;
   if (!activeSessions[sessionId]) {

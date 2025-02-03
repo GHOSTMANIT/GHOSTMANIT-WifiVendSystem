@@ -35,4 +35,8 @@ module.exports = defineConfig([
       },
     },
   },
+<<<<<<< HEAD
 ]);
+=======
+]);
+>>>>>>> cb5d6b8d (Initial commit)
