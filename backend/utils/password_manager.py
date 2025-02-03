@@ -10,11 +10,9 @@ from logging.handlers import RotatingFileHandler
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-# Generate a key for encryption and decryption
 def generate_key():
     return Fernet.generate_key()
 
-# Load the encryption key from a file or generate a new one
 =======
 def generate_key():
     return Fernet.generate_key()
@@ -38,11 +36,9 @@ def load_key():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-# Initialize Fernet with the encryption key
 key = load_key()
 cipher = Fernet(key)
 
-# Configure logging with rotation and custom timestamp format
 log_file = os.path.join(os.path.dirname(__file__), 'password_generator.log')
 handler = RotatingFileHandler(log_file, maxBytes=5*1024*1024, backupCount=5)  # 5 MB per log file
 =======
@@ -65,19 +61,10 @@ logging.basicConfig(
 <<<<<<< HEAD
     datefmt='%b-%d-%Y %H:%M:%S'  # Custom date format without milliseconds
 )
-
-# Log the start of the script
 logging.info("Password generation script started.")
-
-# File to store previously generated passwords in JSON format
 PASSWORD_FILE = os.path.join(os.path.dirname(__file__), 'generated_passwords.json')
-
-# File to store categories and their passwords
 CATEGORY_FILE = os.path.join(os.path.dirname(__file__), 'categories.json')
-
-# Initialize Argon2 Password Hasher
 ph = PasswordHasher()
-
 def load_generated_passwords():
     """Load previously generated passwords from a file."""
 =======
