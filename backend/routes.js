@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 <<<<<<< HEAD
+<<<<<<< HEAD
 const Gpio = require('onoff').Gpio; // For GPIO pin handling
 const { v4: uuidv4 } = require('uuid'); // For generating unique session IDs
 
@@ -14,12 +15,19 @@ const activeSessions = {};
 =======
 const Gpio = require('onoff').Gpio;
 const { v4: uuidv4 } = require('uuid'); 
+=======
+const Gpio = require('onoff').Gpio;
+const { v4: uuidv4 } = require('uuid');
+>>>>>>> 0ee3b433 (Initial commit)
 
 const coinPin = new Gpio(3, 'in', 'both');
 
 const activeSessions = {};
 
+<<<<<<< HEAD
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+>>>>>>> 0ee3b433 (Initial commit)
 router.get('/coinInserted', (req, res) => {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -32,6 +40,7 @@ router.get('/coinInserted', (req, res) => {
   coinPin.watch((err, value) => {
     if (err) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       // Consider using a logging library instead of console.log
       // console.error('Error reading coin slot:', err);
       return;
@@ -43,10 +52,16 @@ router.get('/coinInserted', (req, res) => {
     }
     if (value === 1) {
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+      return;
+    }
+    if (value === 1) {
+>>>>>>> 0ee3b433 (Initial commit)
       sendEvent({ coinInserted: true });
     }
   });
 
+<<<<<<< HEAD
   req.on('close', () => {
 <<<<<<< HEAD
     // Consider using a logging library instead of console.log
@@ -60,16 +75,25 @@ router.get('/coinInserted', (req, res) => {
 });
 
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+  req.on('close', () => {});
+});
+
+>>>>>>> 0ee3b433 (Initial commit)
 router.post('/processCoin', (req, res) => {
   const { coinAmount } = req.body;
   const sessionId = uuidv4();
   activeSessions[sessionId] = {
     startTime: Date.now(),
 <<<<<<< HEAD
+<<<<<<< HEAD
     duration: 60 * 60 * 1000, // 1 hour in milliseconds
 =======
     duration: 60 * 60 * 1000,
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+    duration: 60 * 60 * 1000,
+>>>>>>> 0ee3b433 (Initial commit)
     coinAmount,
   };
   res.json({
@@ -79,9 +103,12 @@ router.post('/processCoin', (req, res) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Route to check session status
 =======
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+>>>>>>> 0ee3b433 (Initial commit)
 router.get('/session/:id', (req, res) => {
   const sessionId = req.params.id;
   const session = activeSessions[sessionId];
@@ -93,9 +120,12 @@ router.get('/session/:id', (req, res) => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Route to disconnect session
 =======
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+>>>>>>> 0ee3b433 (Initial commit)
 router.post('/disconnect/:id', (req, res) => {
   const sessionId = req.params.id;
   if (!activeSessions[sessionId]) {

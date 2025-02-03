@@ -1,0 +1,10 @@
+{
+    "UserTest": [
+        {
+            "hashed_password": "$argon2id$v=19$m=102400,t=2,p=8$K/ay5CmmB1iLAUPTRVk/WA$zyI4mZtOSeUwN2+WNJnajg",
+            "username": "userTest",
+            "encrypted_password": "gAAAAABnoVKTJc6F4WWi3y9Ue-W5RaGqC-RISMt5L0G-G4C-8EIi28_YQORMsfk_ZRrzrlEVgJDbbqdIwT04Yg1WhnPtsiq6ZEJnLJnSEaj4gbvnX6qOUwA=",
+            "note": "test"
+        }
+    ]
+}

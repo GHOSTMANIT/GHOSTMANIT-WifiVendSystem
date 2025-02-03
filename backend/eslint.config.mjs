@@ -14,6 +14,9 @@ export default defineConfig([
     files: ['**/*.{js,jsx,ts,tsx}'],
     rules: {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ee3b433 (Initial commit)
       'react/react-in-jsx-scope': 'off',
       'no-console': 'warn',
       quotes: ['error', 'single'],
@@ -22,6 +25,7 @@ export default defineConfig([
     settings: {
       react: {
         version: 'detect',
+<<<<<<< HEAD
 =======
       'react/react-in-jsx-scope': 'off', 
       'no-console': 'warn', 
@@ -32,6 +36,8 @@ export default defineConfig([
       react: {
         version: 'detect', 
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+>>>>>>> 0ee3b433 (Initial commit)
       },
     },
   },

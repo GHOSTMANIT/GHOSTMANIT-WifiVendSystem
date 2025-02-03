@@ -689,6 +689,7 @@ $[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : Coin inserted
 [[32minfo[39m] Feb/4/2025 5:41:55 AM : {"method":"GET","url":"/login/assests/js/login.js"}
 [[32minfo[39m] Feb/4/2025 5:42:01 AM : {"method":"GET","url":"/login/assests/js/login.js"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 [[32minfo[39m] Feb/4/2025 6:17:06 AM : Server started successfully
 [[32minfo[39m] Feb/4/2025 6:18:09 AM : Server started successfully
 [[32minfo[39m] Feb/4/2025 6:18:28 AM : Server started successfully
@@ -703,3 +704,7 @@ $[{level.toUpperCase()}] Feb/3/2025 1:10:58 PM : Coin inserted
 =======
 [[32minfo[39m] Feb/4/2025 7:12:08 AM : Server started successfully
 >>>>>>> cb5d6b8d (Initial commit)
+=======
+[[32minfo[39m] Feb/4/2025 7:32:02 AM : Server started successfully
+[[32minfo[39m] Feb/4/2025 7:34:48 AM : Server started successfully
+>>>>>>> 0ee3b433 (Initial commit)
