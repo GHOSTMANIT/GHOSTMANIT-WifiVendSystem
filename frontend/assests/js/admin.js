@@ -1,9 +1,7 @@
-// Redirect to login page when logout is clicked
 document.getElementById("logout-btn").addEventListener("click", function () {
-  window.location.href = "login.html"; // Redirecting to the Login page
+  window.location.href = "login.html";
 });
 
-// JavaScript to toggle visibility of sections
 document.querySelectorAll('.sidebar a').forEach(link => {
   link.addEventListener('click', function (e) {
     e.preventDefault();
@@ -12,7 +10,6 @@ document.querySelectorAll('.sidebar a').forEach(link => {
   });
 });
 
-// Chart.js code to create the graphs
 const dailySalesCtx = document.getElementById('dailySalesChart').getContext('2d');
 const overallSalesCtx = document.getElementById('overallSalesChart').getContext('2d');
 
