@@ -3,7 +3,7 @@
 // backend/server.js
 const express = require('express');
 const path = require('path');
-const logger = require('./utils/logger'); // Import the logger
+const logger = require('./utils/logger'); 
 =======
 const express = require('express');
 const path = require('path');
@@ -20,11 +20,9 @@ const sessionRoutes = require('./routes/sessionRoutes');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-// Serve static files from the frontend directory
 app.use(express.static(path.join(__dirname, '../frontend')));
 app.use(express.json());
 
-// Log incoming requests
 =======
 app.use(express.static(path.join(__dirname, '../frontend')));
 app.use(express.json());
@@ -42,10 +40,9 @@ app.use((req, res, next) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-// Serve piso.html directly and log any errors
 app.get('/piso/piso.html', (req, res) => {
-  logger.info({ headers: req.headers }); // Log the request headers
-  logger.info({ message: 'Request received for piso.html' }); // Log the request
+  logger.info({ headers: req.headers }); 
+  logger.info({ message: 'Request received for piso.html' }); 
 =======
 app.get('/piso/piso.html', (req, res) => {
   logger.info({ headers: req.headers }); 
@@ -66,11 +63,9 @@ app.get('/piso/piso.html', (req, res) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-// Use routes
 app.use('/', coinRoutes);
 app.use('/', sessionRoutes);
 
-// Serve index.html as the main entry point
 =======
 app.use('/', coinRoutes);
 app.use('/', sessionRoutes);
@@ -87,7 +82,6 @@ app.get('/', (req, res) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-// Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   logger.info({ message: 'Server started successfully' }); // Log server start
