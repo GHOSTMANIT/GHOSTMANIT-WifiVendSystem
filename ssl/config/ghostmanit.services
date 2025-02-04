@@ -10,6 +10,6 @@ server {
 
     # SSL configuration
     listen 443 ssl;
-    ssl_certificate /home/ghostmanit/GHOSTMANIT/ssl/certificates/ghostmanit.crt;  # Correct path to SSL certificate
-    ssl_certificate_key /home/ghostmanit/GHOSTMANIT/ssl/certificates/ghostmanit.key;  # Correct path to SSL key
+    ssl_certificate /home/ghostmanit/GHOSTMANIT/ssl/certificates/ghostmanit.crt;  
+    ssl_certificate_key /home/ghostmanit/GHOSTMANIT/ssl/certificates/ghostmanit.key;
 }
